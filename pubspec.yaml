@@ -1,0 +1,44 @@
+name: test_runner_ui
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  cupertino_icons: ^1.0.8
+  animations: ^2.0.8
+  flutter_animate: ^4.5.0
+  window_manager: ^0.4.3
+  flutter_code_editor: ^0.3.1
+  highlight: ^0.7.0
+  flutter_highlight: ^0.7.0
+  flutter_markdown: ^0.7.4+2
+  xterm: ^3.5.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/svg/flutter-mark-white.svg
+    - assets/svg/flutter-mark-black.svg
+
+  fonts:
+    - family: JetBrains Mono
+      fonts:
+        - asset: fonts/JetBrainsMono-Regular.ttf
+
+platforms:
+  android:
+  ios:
+  web:
